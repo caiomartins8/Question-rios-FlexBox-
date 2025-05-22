@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+
+    <h1>Parte 4: Prática com CSS</h1>
+    <div id="conteiner">
+
+
+        <div>
+            <div class="perguntas">Escreva um código CSS que defina um parágrafo com largura de 75%.</div>
+            <div>p { width: 75%; }</div>
+            <br>
+
+        
+            <div class="perguntas">Qual é o efeito de max-width: 100% em imagens responsivas?</div>
+            <div>img { max-width: 100%; height: auto; } <br>
+                O uso de max-width: 100% em imagens torna elas <br>
+                responsivas, garantindo que nunca ultrapassem o tamanho do elemento pai <br>
+                height: auto mantém a proporção original da imagem ao reduzir o tamanho.
+            </div>
+            <br>
+        
+            <div class="perguntas">Como aplicar um tamanho de fonte responsivo com clamp()?</div>
+            <div>A função clamp() no CSS permite definir um tamanho de <br>
+                fonte responsivo, garantindo um tamanho : <br>
+                Mínimo: garantindo legibilidade em telas pequenas<br>
+                Ideal: tamanho recomendado, ajustável dinamicamente. <br>
+                Máximo: evita que a fonte fique grande demais em telas grandes.
+            </div>
+            <br>
+        </div>
+        
+        <div>
+
+            <div class="perguntas">Como usar min() para definir um tamanho máximo de 800px e um mínimo de 50%?</div>
+            <div>#elemento { width: min(800px, 50%);}</div>
+            <br>
+
+
+            <div class="perguntas">Como definir um título com tamanho de fonte 2em?</div>
+            <div>h1 {font-size: 2em;}</div>
+            <br>
+            
+            <div class="perguntas">Escreva um código CSS que faça um elemento ter largura 50vw e altura 50vh.</div>
+            <div>.elemento { width: 50vw; height: 50vh; }
+            </div>
+            <br>
+        
+            <div class="perguntas">Como utilizar calc() para definir a largura como 50% menos 20px?</div>
+            <div>.elemento { width: calc(50% - 20px); }
+            </div>
+            <br>
+        
+            <div class="perguntas">Qual a vantagem de combinar rem com max-width?</div>
+            <div>Isso garante que os elementos fiquem no máximo a mdeida idela de largura, br
+                 mas continue responsivo em telas menores.</div>
+            <br>
+        
+            <div class="perguntas">Como usar vh para garantir que um elemento ocupe toda a tela?</div>
+            <div>.elemento { height: 100vh; }
+            </div>
+            <br>
+        
+            <div class="perguntas">Como definir uma div com largura mínima de 300px e máxima de 80vw?</div>
+            <div>div { min-width: 300px; max-width: 80vw; }
+            </div>
+            <br>
+        </div>
+        
+</div>
+
+    <div id="dpbutton">
+        <button><a href="index5.html"> Próxima Etapa</a></button>
+        <button><a href="index3.html">Voltar Etapa </a></button>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

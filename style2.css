@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(to bottom right, #3d492f, #89A666);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#conteiner {
+    border: solid 1px #DDF3F0;
+    width: 1200px;
+    height: 550px;
+    border-radius: 50px;
+    color: #D6D58E;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction:row
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #DDF3F0;
+}
+
+button {
+    height: 60px;
+    width: 200px;
+    background-color: #3d492f;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #DDF3F0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#dpbutton{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+.perguntas{
+    font-weight: bold;
+}

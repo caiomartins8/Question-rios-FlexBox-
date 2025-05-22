@@ -1,0 +1,6 @@
+O que é vmin e vmax no CSS?
+vmin garante que o tamanho de um elemento nunca ultrapasse o <br> menor lado da tela
+            e o vmax faz que o elemento siga o maior lado da tela
+
+            
+Quantos pixels existem em uma polegada?
